@@ -1,0 +1,40 @@
+.page-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+}
+
+.video-section {
+    width: 60%;
+    height: 100%;
+    background-color: black;
+}
+
+.actual-size-video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.text-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
